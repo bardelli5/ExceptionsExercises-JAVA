@@ -33,7 +33,6 @@ public class Program {
             System.out.println("Invalid Input");
         }
         
-        
         catch (DomainException e) {
             System.out.println("Withdraw error: " + e.getMessage());
         }
